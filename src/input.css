@@ -6,7 +6,7 @@
     padding: 4px 20px;
     color: white;
     border-radius: 20px;
-    background: linear-gradient(180deg, rgb(41, 62, 156), #ab9e9e); 
+    background: linear-gradient(180deg, rgb(41, 62, 156), #ab9e9e);
     transition: .2s opacity;
 }
 
@@ -14,6 +14,7 @@
     opacity: .8;
     transition: .2s opacity;
     cursor: pointer;
+    z-index: 1;
 }
 
 .card {
@@ -21,4 +22,36 @@
     width: 350px;
     background-color: rgba(128, 128, 128, 0.46);
     border-radius: 10px;
+}
+
+.badge {
+    height: 35px;
+    width: 35px;
+}
+
+.badge {
+    transition: transform .2s;
+}
+
+.badge:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.box-badge {
+    width: 80px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap:.5rem;
+    padding: 5px;
+    border-radius:12px;
+    transition:.25s;
+}
+
+.box-badge:hover{
+    transform:translateY(-6px);
+    background:#f8fafc;
+    z-index: 1;
 }

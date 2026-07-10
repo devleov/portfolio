@@ -15,15 +15,15 @@
 <body class="px-9">
 
     <nav
-        class="sticky top-0 bg-white/80 backdrop-blur-xl border-b border-b-gray-300 h-20 flex items-center justify-center">
-        <h1 class="text-4xl w-[55%] font-bold text-blue-800">Léo</h1>
+        class="sticky top-0 bg-white/80 backdrop-blur-xl border-b border-b-gray-300 h-20 flex items-center justify-center z-100">
+        <h1 class="text-4xl text-center md:text-start md:w-[55%] font-bold text-blue-800">Léo Vitor</h1>
 
-        <ul class="hidden gap-4 sm:flex">
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Projetos</a></li>
-            <li><a href="#">Tecnologias</a></li>
-            <li><a href="#">Github</a></li>
-            <li><a href="#">Contato</a></li>
+        <ul class="hidden gap-4 md:flex">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#tecnologias">Tecnologias</a></li>
+            <li><a href="https://web.whatsapp.com/send/?phone=5517981467337" target="_blank">Contato</a></li>
+
         </ul>
     </nav>
 
@@ -72,6 +72,10 @@
         <div class="mt-10 flex items-center justify-center flex-col">
             <h2 class="text-3xl">Sobre mim</h2>
 
+            <p class="text-center text-gray-600 mt-3 max-w-2xl mx-auto">
+                Conheça um pouco da minha trajetória, interesses e objetivos como desenvolvedor.
+            </p>
+
             <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
 
                 <div
@@ -79,6 +83,8 @@
                     <h3 class="font-semibold text-lg">💻 Programação</h3>
                     <p class="mt-2 text-gray-600">
                         Descobri minha paixão pela programação criando bots para Discord.
+                        Desde então venho desenvolvendo aplicações web para transformar
+                        ideias em soluções práticas e funcionais.
                     </p>
                 </div>
 
@@ -86,7 +92,9 @@
                     class="rounded-xl border p-5 shadow-sm hover:-translate-y-2 hover:shadow-xl transition duration-300">
                     <h3 class="font-semibold text-lg">📚 Aprendizado</h3>
                     <p class="mt-2 text-gray-600">
-                        Produzo conteúdo e compartilho conhecimento sobre tecnologia.
+                        Estou sempre estudando novas tecnologias, boas práticas de
+                        desenvolvimento e banco de dados para evoluir constantemente
+                        como desenvolvedor.
                     </p>
                 </div>
 
@@ -94,7 +102,9 @@
                     class="rounded-xl border p-5 shadow-sm hover:-translate-y-2 hover:shadow-xl transition duration-300">
                     <h3 class="font-semibold text-lg">🏢 Trabalho</h3>
                     <p class="mt-2 text-gray-600">
-                        Atualmente trabalho em um escritório contábil desenvolvendo experiência prática.
+                        Atualmente trabalho em um escritório contábil, onde desenvolvo
+                        experiência prática com documentos fiscais, organização de
+                        informações e resolução de problemas do ambiente empresarial.
                     </p>
                 </div>
 
@@ -102,7 +112,9 @@
                     class="rounded-xl border p-5 shadow-sm hover:-translate-y-2 hover:shadow-xl transition duration-300">
                     <h3 class="font-semibold text-lg">🚀 Projetos</h3>
                     <p class="mt-2 text-gray-600">
-                        Desenvolvo sistemas web para resolver problemas reais.
+                        Gosto de criar aplicações que resolvem problemas reais,
+                        principalmente para pequenos negócios, automatizando processos
+                        e melhorando a experiência dos usuários.
                     </p>
                 </div>
 
@@ -110,7 +122,9 @@
                     class="rounded-xl border p-5 shadow-sm hover:-translate-y-2 hover:shadow-xl transition duration-300">
                     <h3 class="font-semibold text-lg">🍫 Empreendedorismo</h3>
                     <p class="mt-2 text-gray-600">
-                        Também empreendo com a venda de trufas.
+                        Também desenvolvo habilidades empreendedoras por meio da produção
+                        e comercialização de trufas artesanais, buscando aprimorar gestão,
+                        atendimento ao cliente e planejamento financeiro.
                     </p>
                 </div>
 
@@ -131,38 +145,55 @@
                 Projetos
             </h2>
 
+            <p class="text-center text-gray-600 mt-3 max-w-2xl mx-auto">
+                Alguns dos projetos que desenvolvi para praticar desenvolvimento web e criar
+                soluções voltadas para pequenos negócios, utilizando tecnologias modernas
+                de Front-end e Back-end.
+            </p>
+
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
 
-                <div class="rounded-xl overflow-hidden border shadow hover:shadow-xl transition">
+                <div
+                    class="rounded-xl overflow-hidden border shadow-sm hover:shadow-2xl hover:-translate-y-2 transition duration-300">
 
                     <img class="h-56 w-full object-cover" src="/src/img/projects/panificadora.png">
 
                     <div class="p-5">
 
                         <h3 class="font-bold text-xl">
-                            Sistema de Panificadora
+                            E-commerce para Panificadora
                         </h3>
 
                         <p class="text-gray-600 mt-2">
-                            Sistema desenvolvido para gerenciamento de pedidos e produtos.
+                            Plataforma de vendas online desenvolvida para panificadoras, permitindo
+                            que clientes visualizem os produtos, adicionem itens ao carrinho e
+                            realizem pedidos de forma simples e intuitiva.
                         </p>
+
+                        <div class="mt-4 text-sm text-gray-500">
+                            <p>✔ Carrinho de compras</p>
+                            <p>✔ Interface responsiva</p>
+                            <p>✔ Organização por categorias</p>
+                        </div>
 
                         <div class="flex flex-wrap gap-2 mt-4">
 
-                            <span class="badge">HTML</span>
-                            <span class="badge">CSS</span>
-                            <span class="badge">JavaScript</span>
+                            <img class="badge" src="src/img/tecs/html.png" alt="HTML" name="HTML">
+                            <img class="badge" src="src/img/tecs/css.png" alt="CSS" name="CSS">
+                            <img class="badge" src="src/img/tecs/js.png" alt="JS" name="JS">
+                            <img class="badge" src="src/img/tecs/nodejs.webp" alt="NODEJS" name="NODEJS">
+                            <img class="badge" src="src/img/tecs/express.webp" alt="EXPRESS" name="EXPRESS">
 
                         </div>
 
                         <div class="flex gap-3 mt-6">
 
-                            <a class="button">
-                                Github
+                            <a class="button" href="https://github.com/devleov/panificadora" target="_blank">
+                                <i class="fa-brands fa-github"></i> Github
                             </a>
 
-                            <a class="button">
-                                Demo
+                            <a class="button" href="https://panificadora-rho.vercel.app/" target="_blank">
+                                <i class="fa-solid fa-arrow-right-from-bracket"></i> Demo
                             </a>
 
                         </div>
@@ -171,49 +202,259 @@
 
                 </div>
 
+                <!-- <div class="rounded-xl overflow-hidden border shadow hover:shadow-xl transition">
+                    <img class="h-56 w-full object-cover" src="/src/img/projects/cardapio.png">
+
+                    <div class="p-5">
+
+                        <h3 class="font-bold text-xl">
+                            Cardápio Digital
+                        </h3>
+
+                        <p class="text-gray-600 mt-2">
+                            Cardápio online desenvolvido para hamburguerias, permitindo visualizar os
+                            produtos disponíveis e enviar pedidos diretamente pelo WhatsApp.
+                        </p>
+
+                        <div class="mt-4 text-sm text-gray-500">
+                            <p>✔ Integração com WhatsApp</p>
+                            <p>✔ Interface responsiva</p>
+                            <p>✔ Organização dos produtos</p>
+                        </div>
+
+                        <div class="flex flex-wrap gap-2 mt-4">
+
+                            <img class="badge" src="src/img/tecs/html.png" alt="HTML" name="HTML">
+                            <img class="badge" src="src/img/tecs/css.png" alt="CSS" name="CSS">
+                            <img class="badge" src="src/img/tecs/bootstrap.png" alt="CSS" name="BOOTSTRAP">
+
+                        </div>
+
+                        <div class="flex gap-3 mt-6">
+
+                            <a class="button" href="https://github.com/devleov/cardapiodigital" target="_blank">
+                                <i class="fa-brands fa-github"></i> Github
+                            </a>
+
+                            <a class="button" href="https://devleov.github.io/cardapiodigital/" target="_blank">
+                                <i class="fa-solid fa-arrow-right-from-bracket"></i> Demo
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div> -->
+
+                <div
+                    class="rounded-xl overflow-hidden border shadow-sm hover:shadow-2xl hover:-translate-y-2 transition duration-300 z-1">
+                    <img class="h-56 w-full object-cover" src="/src/img/projects/supermercado.png">
+
+                    <div class="p-5">
+
+                        <h3 class="font-bold text-xl">
+                            Site Institucional para Supermercado
+                        </h3>
+
+                        <p class="text-gray-600 mt-2">
+                            Projeto desenvolvido para demonstrar a presença digital de supermercados,
+                            apresentando informações da empresa, produtos e formas de contato.
+                        </p>
+
+                        <div class="mt-4 text-sm text-gray-500">
+                            <p>✔ Layout moderno</p>
+                            <p>✔ Design responsivo</p>
+                            <p>✔ Fácil navegação</p>
+                        </div>
+
+                        <div class="flex flex-wrap gap-2 mt-4">
+
+                            <img class="badge" src="src/img/tecs/html.png" alt="HTML" name="HTML">
+                            <img class="badge" src="src/img/tecs/css.png" alt="CSS" name="CSS">
+                            <img class="badge" src="src/img/tecs/js.png" alt="JS" name="JS">
+                            <img class="badge" src="src/img/tecs/bootstrap.png" alt="BOOTSTRAP" name="BOOTSTRAP">
+
+                        </div>
+
+                        <div class="flex gap-3 mt-6">
+
+                            <a class="button" href="https://github.com/devleov/supermercado" target="_blank">
+                                <i class="fa-brands fa-github"></i> Github
+                            </a>
+
+                            <a class="button" href="https://devleov.github.io/supermercado/" target="_blank">
+                                <i class="fa-solid fa-arrow-right-from-bracket"></i> Demo
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div
+                    class="rounded-xl overflow-hidden border shadow-sm hover:shadow-2xl hover:-translate-y-2 transition duration-300 z-1">
+                    <img class="h-56 w-full object-cover" src="/src/img/projects/barbearia.png">
+
+                    <div class="p-5">
+
+                        <h3 class="font-bold text-xl">
+                            Sistema para Barbearia
+                        </h3>
+
+                        <p class="text-gray-600 mt-2">
+                            Aplicação desenvolvida para facilitar o agendamento de serviços,
+                            apresentar os profissionais e disponibilizar informações da barbearia.
+                        </p>
+
+                        <div class="mt-4 text-sm text-gray-500">
+                            <p>✔ Agendamento online</p>
+                            <p>✔ Catálogo de serviços</p>
+                            <p>✔ Localização da empresa</p>
+                        </div>
+
+                        <div class="flex flex-wrap gap-2 mt-4">
+
+                            <img class="badge" src="src/img/tecs/html.png" alt="HTML" name="HTML">
+                            <img class="badge" src="src/img/tecs/css.png" alt="CSS" name="CSS">
+                            <img class="badge" src="src/img/tecs/js.png" alt="JS" name="JS">
+
+                        </div>
+
+                        <div class="flex gap-3 mt-6">
+
+                            <a class="button" href="https://github.com/devleov/projeto-barbearia" target="_blank">
+                                <i class="fa-brands fa-github"></i> Github
+                            </a>
+
+                            <a class="button" href="https://devleov.github.io/projeto-barbearia/" target="_blank">
+                                <i class="fa-solid fa-arrow-right-from-bracket"></i> Demo
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
 
         </section>
 
         <section id="tecnologias" class="py-24">
 
-            <h2 class="text-center text-4xl font-bold">
-                Tecnologias
-            </h2>
+            <div class="text-center">
 
-            <div class="grid md:grid-cols-2 gap-8 mt-10">
+                <h2 class="text-4xl font-bold">
+                    Tecnologias
+                </h2>
+
+                <p class="text-center text-gray-600 mt-3 max-w-2xl mx-auto">
+                    Tecnologias e ferramentas que utilizo no desenvolvimento de aplicações
+                    web, APIs e bancos de dados.
+                </p>
+
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 mt-10">
 
                 <div class="rounded-xl border p-6">
 
-                    <h3 class="font-bold text-2xl mb-5">
+                    <h3 class="font-bold text-2xl mb-2">
                         Front-end
                     </h3>
 
-                    <div class="flex flex-wrap gap-3">
+                    <p class="text-gray-500 mb-6">
+                        Desenvolvimento de interfaces modernas, responsivas e focadas na experiência do usuário.
+                    </p>
 
-                        <span class="badge">HTML</span>
-                        <span class="badge">CSS</span>
-                        <span class="badge">JavaScript</span>
-                        <span class="badge">Tailwind</span>
-                        <span class="badge">Bootstrap</span>
-
+                    <div class="flex flex-wrap gap-3 gap-y-7">
+                        <div class="box-badge">
+                            <img class="badge" src="src/img/tecs/html.png" alt="HTML" name="HTML">
+                            HTML
+                        </div>
+                        <div class="box-badge">
+                            <img class="badge" src="src/img/tecs/css.png" alt="CSS" name="CSS">
+                            CSS
+                        </div>
+                        <div class="box-badge">
+                            <img class="badge" src="src/img/tecs/js.png" alt="JS" name="JS">
+                            JS
+                        </div>
+                        <div class="box-badge">
+                            <img class="badge" src="src/img/tecs/react.png" alt="REACT" name="REACT">
+                            React
+                        </div>
+                        <div class="box-badge">
+                            <img class="badge" src="src/img/tecs/bootstrap.png" alt="BOOTSTRAP" name="BOOTSTRAP">
+                            Bootstrap
+                        </div>
+                        <div class="box-badge">
+                            <img class="badge" style="width: 50px;" src="src/img/tecs/tailwind.png" alt="TAILWIND"
+                                name="TAILWIND">
+                            Tailwind
+                        </div>
                     </div>
 
                 </div>
 
                 <div class="rounded-xl border p-6">
 
-                    <h3 class="font-bold text-2xl mb-5">
+                    <h3 class="font-bold text-2xl mb-2">
                         Back-end
                     </h3>
 
+                    <p class="text-gray-500 mb-6">
+                        Desenvolvimento de servidores, APIs e integração com banco de dados utilizando Node.js.
+                    </p>
+
+                    <div class="flex flex-wrap gap-3">
+                        <div class="box-badge">
+                            <img class="badge" src="src/img/tecs/nodejs.webp" alt="NODE.JS" name="NODE.JS">
+                            Node.js
+                        </div>
+                        <div class="box-badge">
+                            <img class="badge" src="src/img/tecs/mysql.png" alt="MYSQL" name="MYSQL">
+                            MySQL
+                        </div>
+                        <div class="box-badge">
+                            <img class="badge" src="src/img/tecs/express.webp" alt="EXPRESS.JS" name="EXPRESS.JS">
+                            Express.js
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="rounded-xl border p-6">
+
+                    <h3 class="font-bold text-2xl mb-2">
+                        Ferramentas
+                    </h3>
+
+                    <p class="text-gray-500 mb-6">
+                        Ferramentas que fazem parte do meu fluxo de desenvolvimento.
+                    </p>
+
                     <div class="flex flex-wrap gap-3">
 
-                        <span class="badge">Node.js</span>
-                        <span class="badge">Express</span>
-                        <span class="badge">Sequelize</span>
-                        <span class="badge">MySQL</span>
-                        <span class="badge">Git</span>
+                        <div class="box-badge">
+                            <img class="badge" src="src/img/tecs/git.webp" alt="Git">
+                            Git
+                        </div>
+
+                        <div class="box-badge">
+                            <img class="badge" src="src/img/tecs/github.png" alt="GitHub">
+                            GitHub
+                        </div>
+
+                        <div class="box-badge">
+                            <img class="badge" src="src/img/tecs/vscode.webp" alt="VS Code">
+                            VS Code
+                        </div>
+
+                        <div class="box-badge">
+                            <img class="badge" src="src/img/tecs/npm.webp" alt="NPM">
+                            npm
+                        </div>
 
                     </div>
 
@@ -232,13 +473,8 @@
                 </p>
 
                 <div class="flex gap-6">
-
-                    <a href="#">Github</a>
-
-                    <a href="#">LinkedIn</a>
-
-                    <a href="#">Email</a>
-
+                    <a href="https://github.com/devleov" target="_blank">Github</a>
+                    <a href="https://web.whatsapp.com/send/?phone=5517981467337" target="_blank">Whatsapp</a>
                 </div>
 
             </div>
